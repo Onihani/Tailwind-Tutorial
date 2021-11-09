@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body class="nat">
+    <div class="container">
+      <div class="row">
+        <div
+          class="
+            col
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-center
+          "
+        >
+          <h2 class="text-primary">facebook</h2>
+          <p class="fs-4">
+            Connect with friends and the world around you on Facebook.
+          </p>
+        </div>
+        <div class="col">
+          <form action="login" method="post">
+            <div class="card shadow mb-5">
+              <div class="card-body">
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Email or phone number"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    name="password"
+                    type="password"
+                    class="form-control"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="mb-3">
+                  <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary btn-block">
+                      Log In
+                    </button>
+                  </div>
+                </div>
+                <div class="text-center mb-3">
+                  <a
+                    type="button"
+                    href="https://www.google.com"
+                    class="btn btn-link"
+                    >Forgot Password ?</a
+                  >
+                </div>
+                <hr />
+                <div class="text-center mb-3">
+                  <button
+                    type="button"
+                    class="btn btn-success btn-lg"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Create new account
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="text-center">
+            <small
+              ><b>Create a page</b> for a celebrity, brand or business</small
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row g-2 mb-3">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control bg-secondary bg-opacity-25"
+                  placeholder="First Name"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control bg-secondary bg-opacity-25"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+            <div class="row g-2 mb-3">
+              <div class="col-md-12">
+                <input
+                  type="text"
+                  class="form-control bg-secondary bg-opacity-25"
+                  placeholder="mobile number or email"
+                />
+              </div>
+            </div>
+            <div class="row g-2 mb-3">
+              <div class="col-md-12">
+                <input
+                  type="text"
+                  class="form-control bg-secondary bg-opacity-25"
+                  placeholder="New password"
+                />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label fs-6">Birthday</label>
+              <div class="row g-2">
+                <div class="col-md-4">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label fs-6">Birthday</label>
+              <div class="row g-2">
+                <div class="col-md-4">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <small
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+              harum, molestiae esse asperiores eaque doloremque! Aperiam sit
+              facilis aliquam nam accusamus natus molestiae libero!</small
+            >
+            <div class="text-center w-100">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-dismiss="modal"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
